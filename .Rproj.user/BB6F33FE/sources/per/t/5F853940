@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544400120107.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5F853940",
+    "lastKnownWriteTime" : 5292976843906638626,
+    "last_content_update" : 1544400120107,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A2985BDC",
+        "caption" : "mplsdata",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=mplsdata&cache_key=A2985BDC",
+        "displayedObservations" : "350",
+        "environment" : "",
+        "object" : "mplsdata",
+        "preview" : "0",
+        "totalObservations" : "350",
+        "variables" : "28"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544399945875.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "0|31|26|0|\n",
+    "hash" : "3239519957",
+    "id" : "91A81FA3",
+    "lastKnownWriteTime" : 1544403550,
+    "last_content_update" : 1544403550906,
+    "path" : "C:/Users/akomo/OneDrive/Desktop/projects/HouseSearch/GetData.R",
+    "project_path" : "GetData.R",
+    "properties" : {
+        "cursorPosition" : "28,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
