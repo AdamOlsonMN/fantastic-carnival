@@ -4,15 +4,15 @@
     "created" : 1544399945875.000,
     "dirty" : false,
     "encoding" : "UTF-8",
-    "folds" : "0|31|26|0|\n",
+    "folds" : "",
     "hash" : "0",
     "id" : "91A81FA3",
     "lastKnownWriteTime" : 1544575243,
-    "last_content_update" : 1544575243910,
+    "last_content_update" : 1544576624433,
     "path" : "C:/Users/akomo/OneDrive/Desktop/projects/HouseSearch2/GetData.R",
     "project_path" : "GetData.R",
     "properties" : {
-        "cursorPosition" : "29,22",
+        "cursorPosition" : "10,111",
         "scrollLine" : "0"
     },
     "relative_order" : 1,
