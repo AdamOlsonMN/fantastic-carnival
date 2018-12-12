@@ -7,8 +7,8 @@ GetHousingData <-function(url){
   ExcelFileDate <- paste0(DateForFile, "HousingData")
   
   r <- GET(
-    url, 
-    add_headers(Name = "DomesticLyfe"),
+    mpls,
+    user_agent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.35"),
     set_cookies("MeWant" = "cookies")
     )
   
@@ -26,3 +26,5 @@ GetHousingData <-function(url){
   return(HousingDataProcessed)
 }
 
+
+data<-GetHousingData()
