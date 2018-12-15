@@ -3,7 +3,6 @@ import requests
 import io
 import datetime
 
-
 def GetData(url):
     """
     Attempts to get the content at `url` by making an HTTP GET request.
@@ -26,7 +25,6 @@ def GetData(url):
         print(e)
     else:
         print("There was another problem.")
-
 
 def CleanRedfinData(df):
     """
@@ -67,7 +65,6 @@ def CleanRedfinData(df):
         inplace = False,
     )
     return dat
-
 
 def ExportToExcel(df, search):
     d = datetime.datetime.today().strftime("%Y%m%d")
