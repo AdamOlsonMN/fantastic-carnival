@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 import io
+import datetime
 
 
 def GetData(url):
@@ -66,3 +67,9 @@ def CleanRedfinData(df):
         inplace = False,
     )
     return dat
+
+
+def ExportToExcel(df, search):
+    d = datetime.datetime.today().strftime("%Y%m%d")
+
+    write.csv
