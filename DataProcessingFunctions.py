@@ -13,14 +13,7 @@ def GetData(url):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.35"
         }
     )
-
     try:
-        session = requests.Session()
-        session.headers.update(
-            {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.35"
-            }
-        )
         r = session.get(url)
         resptext = r.content
         if r.status_code == 200:
@@ -39,7 +32,8 @@ def CleanRedfinData(df):
     This function takes the output processed by the GetData function and cleans the column names. It does not currently
     contain error handling.
     """
-    df.rename(
+    dat = df.rename(
+        index = str,
         columns={
             "SALE TYPE": "SaleType",
             "SOLD DATE": "SoldDate",
@@ -69,5 +63,6 @@ def CleanRedfinData(df):
             "LATITUDE": "Lat",
             "LONGITUDE": "Lon",
         },
-        inplace=True,
+        inplace = False,
     )
+    return dat
