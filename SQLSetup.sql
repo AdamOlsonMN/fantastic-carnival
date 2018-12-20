@@ -23,8 +23,8 @@ GO
 CREATE TABLE dbo.RedfinListings(
    PrimID        INT    NOT NULL   PRIMARY KEY, -- primary key column
    Name      [NVARCHAR](50)  NOT NULL,
-   Location   [NVARCHAR](50)  NOT NULL
-   SaleType ,
+   Location   [NVARCHAR](50)  NOT NULL,
+   SaleType [NVARCHAR](50),
    SoldDate,
    PropType,
    Address,
