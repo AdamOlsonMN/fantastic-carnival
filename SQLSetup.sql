@@ -14,11 +14,15 @@ CREATE DATABASE [Houses]
 GO
 
 -- Create initial table
-USE Houses;
+USE Houses
+IF OBJECT_ID('dbo.RedfinListings', 'U') IS NOT NULL
+DROP TABLE dbo.RedfinListings
 GO
-DROP TABLE IF EXISTS RedfinListings;
+-- Create the table in the specified schema
+
+CREATE TABLE dbo.RedfinListings(
+   PrimID        INT    NOT NULL   PRIMARY KEY, -- primary key column
+   Name      [NVARCHAR](50)  NOT NULL,
+   Location   [NVARCHAR](50)  NOT NULL
+   );
 GO
-CREATE TABLE RedfinListings(
-[BusinessEntityID] INT
-,[FirstName] VARCHAR(50)
-,[LastName] VARCHAR(100))
